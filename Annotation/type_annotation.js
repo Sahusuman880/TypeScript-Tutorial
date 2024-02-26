@@ -1,0 +1,10 @@
+"use strict";
+let num1 = 10;
+let name1 = "Suman Sahu";
+console.log(num1, name1);
+let newString = `my number is ${num1}`;
+console.log(newString);
+let s1 = "Suman";
+let s2 = "suman";
+let result = (s1 == s2);
+console.log(result);
