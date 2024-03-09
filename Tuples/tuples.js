@@ -7,5 +7,6 @@ const displayPersonInfo = (person) => {
     const [name, age, drivingLicence] = person;
     console.log(`Name:${name},Age:${age},Driving Liscence:${drivingLicence ? "Yes" : "no"}`);
 };
+// person11.push("coding"); it will give error because we declare it readonly
 displayPersonInfo(person11);
 displayPersonInfo(person12);
